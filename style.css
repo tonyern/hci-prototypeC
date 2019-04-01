@@ -38,7 +38,6 @@ a:link
 {
     color: #404040;
     font-weight: bold;
-    text-decoration: underline;
 }
 
 /* For links that have been visited (in the browser history). */
@@ -79,13 +78,22 @@ a:hover
     text-align: center;
 }
 
+.fnavbar
+{
+    border: 1px #e0e0e0;
+    font-size: 20px;
+    margin: 8px 0px 8px 0px;
+    text-align: left;
+}
+
 /* For the footer (site license information). */
 .footer
 {
-    border: 1px dashed #e0e0e0;
     font-size: 16px;
-    font-style: italic;
-    text-align: center;
+    text-align: left;
+    width: 100%
+    background-color: #222;
+    padding: 40px 0px
 }
 
 /* For the sidebar (filters to go with the accordion). */
