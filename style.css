@@ -68,21 +68,31 @@ a:hover
     text-align: center;
 }
 
-/* For the navigation bar (links to several mainstream movie-related sites). */
-.navbar
+/* Bar that contains sign in and help. */
+.signbar
 {
-    border: 1px dashed #e0e0e0;
     font-size: 20px;
     line-height: 25px;
     margin: 8px 0px 8px 0px;
-    text-align: center;
+    text-align: right;
 }
 
+/* For the navigation bar (links to several mainstream movie-related sites). */
+.navbar
+{
+    font-size: 20px;
+    line-height: 25px;
+    margin: 8px 0px 8px 0px;
+    text-align: left;
+}
+
+/* Links on the footer. */
 .fnavbar
 {
+    background-color: lightgray;
     border: 1px #e0e0e0;
     font-size: 20px;
-    margin: 8px 0px 8px 0px;
+    margin: 0px 0px 0px 0px;
     text-align: left;
 }
 
