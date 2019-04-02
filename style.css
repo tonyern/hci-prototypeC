@@ -36,8 +36,8 @@ button
 /* See https://www.w3schools.com/css/css_pseudo_classes.asp */
 a:link
 {
-    color: #404040;
-    font-weight: bold;
+    color: black;
+    text-decoration: none;
 }
 
 /* For links that have been visited (in the browser history). */
@@ -89,7 +89,6 @@ a:hover
 /* Links on the footer. */
 .fnavbar
 {
-    background-color: lightgray;
     border: 1px #e0e0e0;
     font-size: 20px;
     margin: 0px 0px 0px 0px;
@@ -109,13 +108,13 @@ a:hover
 /* For the sidebar (filters to go with the accordion). */
 .sidebar
 {
-    border: 1px dashed #e0e0e0;
+    /* No style yet. */ 
 }
 
 /* For the accordion (central view of movies in the collection). */
 .accordion
 {
-    border: 1px dashed #e0e0e0;
+    /* No style yet. */ 
 }
 
 /* For items in the accordion. */
