@@ -31,9 +31,17 @@
     <!-- ***TODO: To decide how to layout the various sections, first read -->
     <!-- about layouts at https://www.w3schools.com/html/html_layout.asp -->
 
-    <div class="signbar">
-      <span><a href="">Help</a></span>
-      <span><a href="">Sign In</a></span>
+    <div class="header">
+
+      <b>FreeMovie</b>
+
+      <div class="signbar">
+
+        <span><a href="">Help</a></span>
+        <span><a href="">Sign In</a></span>
+
+      </div>
+
     </div>
 
     <!-- ***TODO: Write HTML+CSS to layout and style your site's navbar. -->
@@ -53,13 +61,16 @@
     <!-- ***TODO: Write HTML+CSS to layout and style your site's sidebar. -->
     <div class="sidebar">
 
+      <div>
+        <span>Filter Titles</span>
+      </div>
+
       <!-- Here are buttons for expanding/collapsing all items. They're -->
       <!-- not in the specification. You can do with them what you like. -->
       <div>
         <button id="show-all">Show All Details</button>
         <button id="hide-all">Hide All Details</button>
       </div>
-
       <br/>
 
       <!-- This <div> receives generated HTML for the sidebar filter. It's -->
@@ -69,6 +80,22 @@
 
     </div>
 
+    <section>
+    <!-- ***TODO: Write HTML+CSS to layout and style your site's banner. -->
+    <div class="banner">
+
+      <!-- An extremely simple banner to get you started. -->
+      <div><span>View Popular Titles, See Reviews, Get Tickets & Deals</span></div>
+
+      <div>
+        <img src="images/0001.jpg" alt="eternal sunshine">
+        <img src="images/0002.jpg" alt="harry potter">
+        <img src="images/0003.jpg" alt="scott pilgram">
+      </div>
+
+      <div class="lowerBanner"><span>Browse more titles >></span></div>
+
+    </div>
 
     <!-- ***TODO: Write HTML+CSS to layout and style the accordion. -->
     <div class="accordion">
@@ -79,7 +106,6 @@
       <div id="items"></div>
 
     </div>
-
 
     <!-- ***TODO: Write HTML+CSS to layout and style your site's footer. -->
     <div class="footer">
@@ -98,6 +124,11 @@
         |
         <span><a href="">Terms & Conditions</a></span>
 
+      </div>
+
+      <div>
+        <!-- Copyright information on the right side of footer. -->
+        <span>Copyright © 1997-2019 FreeMovie.com, Inc.</span>
       </div>
 
     </div>

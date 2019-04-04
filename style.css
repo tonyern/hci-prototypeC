@@ -16,13 +16,14 @@ body
     background-color: white;
     color: black;
     font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 /* For images. */
 img
 {
     box-shadow: 4px 4px 4px #606000;
+    width: 100px;
 }
 
 /* For buttons. */
@@ -59,86 +60,100 @@ a:hover
 /* For the banner (information about the site itself). */
 .banner
 {
-    background-image: linear-gradient(to bottom, #e0e0a0, #c0c080);
-    border: 1px groove #e0e0e0;
-    box-shadow: 4px 4px 4px #d0d0d0;
+    background-color: #cccccc;
+    border: 1px solid black;
     padding: 20px 20px 20px 20px;
-
-    font-size: 80px;
+    width: 75.695%;
+    color: blue;
+    font-size: 20px;
     text-align: center;
+    float: left;
+}
+
+.lowerBanner
+{
+    text-align: left;
+    color: black;
 }
 
 /* Bar that contains sign in and help. */
 .signbar
 {
-    font-size: 20px;
-    line-height: 25px;
-    margin: 8px 0px 8px 0px;
     text-align: right;
+}
+
+/* Header that contains name of the website. */
+.header
+{
+    border: 1px solid black;
+    background-color: #dddddd;
+    font-size: 20px;
+    text-align: center;
 }
 
 /* For the navigation bar (links to several mainstream movie-related sites). */
 .navbar
 {
+    border: 1px solid black;
+    background-color: #eeeeee;
     font-size: 20px;
-    line-height: 25px;
-    margin: 8px 0px 8px 0px;
     text-align: left;
 }
 
 /* Links on the footer. */
 .fnavbar
 {
-    border: 1px #e0e0e0;
     font-size: 20px;
-    margin: 0px 0px 0px 0px;
     text-align: left;
 }
 
 /* For the footer (site license information). */
 .footer
 {
-    font-size: 16px;
-    text-align: left;
+    border: 1px solid black;
+    background-color: #dddddd;
+    font-size: 20px;
+    text-align: center;
     width: 100%
-    background-color: #222;
-    padding: 40px 0px
 }
 
 /* For the sidebar (filters to go with the accordion). */
 .sidebar
 {
-    /* No style yet. */ 
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    float: right;
+    text-align: center;
+    width: 260px;
 }
 
 /* For the accordion (central view of movies in the collection). */
 .accordion
 {
-    /* No style yet. */ 
+    padding: 150px 280px 20px 20px;
 }
 
 /* For items in the accordion. */
 .item-overall
 {
     border: 1px solid black;
-    margin: 0px 0px 0px 0px;
 }
 
 /* For the summary part of accordion items. */
 .item-summary
 {
-    background-color: #e0e0a0;
+    background-color: #cccccc;
 }
 
 .item-summary:hover
 {
-    background-color: #c0c080;
+    background-color: #999999;
 }
 
 /* For the details part of accordion items. */
 .item-details
 {
-    background-color: #ffffe0;
+    background-color: white;
     text-align: center;
 }
 
