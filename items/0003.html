@@ -4,7 +4,7 @@
 <!-- See https://www.w3schools.com/html/ for reference and help. -->
 
 <!-- For help on linking back to the item on the main page, see "Bookmarks with
-<!-- ID and Links" at https://www.w3schools.com/html/html_id.asp. -->
+  ID and Links" at https://www.w3schools.com/html/html_id.asp. -->
 
 <!----------------------------------------------------------------------------->
 
@@ -12,51 +12,113 @@
 
 <html>
   <head>
-    <title></title>
+    <title>A Free Movie Site - Scott Pilgram VS The World</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" media="screen" href="../style.css"/>
   </head>
 
   <body>
-    <!-- ***TODO: To decide how to layout the various sections, first read -->
-    <!-- about layouts at https://www.w3schools.com/html/html_layout.asp -->
+    <noscript>
+      <div class="warning">Please enable JavaScript to view this page.</div>
+    </noscript>
+    <script>
+      $(document).ready(function(){
+        loadXMLDataInline();
+      });
+    </script>
 
+    <div class="header">
 
-    <!-- ***TODO: Write HTML+CSS to layout and style your site's banner. -->
-    <div class="banner">
+      <b>FreeMovie</b>
 
-      <!-- An extremely simple banner to get you started. -->
-      Banner!
+      <div class="signbar">
+
+        <span><a href="">Help</a></span>
+        <span><a href="">Sign In</a></span>
+
+      </div>
 
     </div>
 
-
-    <!-- ***TODO: Write HTML+CSS to layout and style your site's navbar. -->
+    <!-- Basic navigation bars. -->
     <div class="navbar">
 
       <!-- A basic navbar to get you started. -->
-      <span><a href="https://www.ou.edu/">OU</a></span>
-      <span><a href="https://www.cs.ou.edu/">CS</a></span>
+      <span><a href="">TV Shows</a></span>
+      |
+      <span><a href="">Movies</a></span>
+      |
+      <span><a href="">News</a></span>
+      |
+      <span><a href="">Tickets & Showtimes</a></span>
 
     </div>
 
+    <!-- ***TODO: Write HTML+CSS to layout and style your site's sidebar. -->
+    <div class="sidebar">
 
-    <!-- ***TODO: Write HTML+CSS to layout and style the movie information. -->
-    <!-- Nothing here...content, layout, styling is for you to figure out! -->
-    <!-- To keep things simple, just hand-copy the 0003 data from the XML. -->
-    <!-- (Normally a page like this would be a template filled with data.) -->
+      <div>
+        <span>Filter Titles</span>
+      </div>
 
+      <!-- Here are buttons for expanding/collapsing all items. They're -->
+      <!-- not in the specification. You can do with them what you like. -->
+      <div>
+        <button id="show-all">Show All Details</button>
+        <button id="hide-all">Hide All Details</button>
+      </div>
+      <br/>
 
-    <!-- ***TODO: Write HTML+CSS to layout and style your site's footer. -->
+      <!-- This <div> receives generated HTML for the sidebar filter. It's -->
+      <!-- okay to move it and add markup around it, but keep it intact -->
+      <!-- (especially the id). -->
+      <div id="filter"></div>
+
+    </div>
+
+    <section>
+    <!-- Basic banner with movie links and featured titles. -->
+    <div class="banner">
+
+      <!-- An extremely simple banner to get you started. -->
+      <div class="lowerBanner"><a href=""><< Back to the home page</a></div>
+
+      <div><img src="0003.jpg" alt="scott pilgram"></div>
+
+      <div><span>Scott Pilgram VS. The World</span></div>
+
+      <div><p>Scott Pilgrim must defeat his new girlfriend's seven evil exes in order to win her heart.</p></div>
+
+      <div class="lowerBanner"><span>View Title's IMDb Site Page >></span></div>
+
+    </div>
+
+    <!-- Basic footer with links and copyright information. -->
     <div class="footer">
 
       <!-- An extremely simple footer to get you started. -->
-      Footer!
+      <div class="fnavbar">
+
+        <!-- Navbar for footer along with | to divide each link. -->
+        <span><a href="">About FreeMovie</a></span>
+        |
+        <span><a href="">Careers</a></span>
+        |
+        <span><a href="">Contacts</a></span>
+        |
+        <span><a href="">Privacy Policy</a></span>
+        |
+        <span><a href="">Terms & Conditions</a></span>
+
+      </div>
+
+      <div>
+        <!-- Copyright information on the right side of footer. -->
+        <span>Copyright © 1997-2019 FreeMovie.com, Inc.</span>
+      </div>
 
     </div>
-
-
   </body>
 </html>
 
